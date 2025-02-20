@@ -13,7 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/Articles/{id}', function ($id) {
-    return " Article Page with ID : ".$id;
-    });
-    
+Route::get('/user/{zahra}', function ($name=null) { 
+    return 'My name is '.$name;
+});
